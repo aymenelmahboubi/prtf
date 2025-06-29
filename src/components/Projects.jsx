@@ -1,28 +1,30 @@
 import React from 'react';
+import pic from '../assets/pic.png';
+import pic2 from '../assets/pic2.png';
 
 const projects = [
   {
-    title: 'DevBlog',
+    title: 'DOMprj',
     description: 'A modern developer blog platform with markdown support and live preview.',
     tech: ['React', 'Node.js', 'MongoDB', 'TailwindCSS'],
-    image: 'https://placehold.co/400x220/23272e/fff?text=DevBlog',
-    github: '#',
+    image: pic,
+    github: 'https://github.com/aymenelmahboubi/Aymen_Elmahboubi_finalproject_dom',
     live: 'https://aymenelmahboubi.github.io/Aymen_Elmahboubi_finalproject_dom/',
   },
   {
     title: 'DOOB',
     description: 'A real-time cryptocurrency dashboard with charts and price alerts.',
     tech: ['React', 'Chart.js', 'API', 'TailwindCSS'],
-    image: 'https://placehold.co/400x220/23272e/fff?text=CryptoDash',
-    github: '#',
+    image: pic2,
+    github: 'https://github.com/aymenelmahboubi/Aymen_Elmahboubi_finalproject_dom',
     live: 'https://aymenelmahboubi.github.io/Aymen-Yahya-Adam-Doob/',
   },
   {
-    title: 'TaskCLI',
+    title: 'DOMprj',
     description: 'A terminal-inspired task manager app for productivity enthusiasts.',
     tech: ['React', 'Redux', 'Node.js', 'TailwindCSS'],
-    image: 'https://placehold.co/400x220/23272e/fff?text=TaskCLI',
-    github: '#',
+    image: pic,
+    github: 'https://github.com/aymenelmahboubi/Aymen_Elmahboubi_finalproject_dom',
     live: '#',
   },
 ];
